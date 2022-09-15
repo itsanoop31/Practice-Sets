@@ -1,0 +1,20 @@
+animals=["Tiger","Lion","Cat","Snake","Elephant"]
+names=["Lakhsya","Prabhkar","Anoop","Disha","Biden"]
+out_loop = 0
+in_loop = 0
+for name in names:
+    for animal in animals:
+        print("================")
+        print(f"The outer loop has run {out_loop} time, and the inner loop has run {in_loop} time.")
+        print(f"{name} was eaten by {animal}.")
+        in_loop= in_loop + 1
+        out_loop= out_loop + 1
+        
+large_list=[]
+for i in range(0,100,10):
+    prod_number = i+35
+    large_list.append(prod_number)
+print(large_list)
+print(large_list[4:8])
+large_list2 = large_list[1:9]
+print(large_list2)        
