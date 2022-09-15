@@ -4,3 +4,11 @@ while var1<25:
     print(f"This loop is running for the {counter}th time and the value of the var1 ia {var1}")
     counter = counter + 1
     var1 = var1 + 2
+    
+value = 1
+list1 = []
+while value<5:
+    list1.append('value')
+    value = value + 1
+    print(list1)
+    list1.remove('value')  
